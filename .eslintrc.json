@@ -1,0 +1,82 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parser": "babel-eslint",
+  "ignorePatterns": [
+    "*.config.js"
+  ],
+  "rules": {
+    "camelcase": "error",
+    "semi": [
+      "error",
+      "never"
+    ],
+    "brace-style": [
+      "error"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "space-in-parens": [
+      "error",
+      "never"
+    ],
+    "space-before-blocks": [
+      "error",
+      "always"
+    ],
+    "space-infix-ops": [
+      "error"
+    ],
+    "newline-per-chained-call": [
+      "error"
+    ],
+    "dot-location": [
+      "error",
+      "property"
+    ],
+    "curly": [
+      "error",
+      "all"
+    ],
+    "eol-last": [
+      "error"
+    ],
+    "comma-spacing": [
+      2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "no-unused-vars": [
+      "error"
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "exports": "always-multiline",
+        "imports": "always-multiline",
+        "functions": "only-multiline"
+      }
+    ],
+    "key-spacing": "error",
+    "prefer-const": "error",
+    "no-var": "error"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  }
+}
