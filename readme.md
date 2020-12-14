@@ -12,7 +12,7 @@
 
 `docker-compose up app` запустит приложение на `http://localhost:300`
 
-http://localhost:3000/api-docs - страница с документацией и формами для вызова методов API
+http://localhost:3000/api-docs - __Swagger__ страница с документацией и формами для вызова методов API
 
 При авторизации нужно указать только `username` и `password`.`client_id`, `client_secret` заполнять не нужно.
 
